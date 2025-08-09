@@ -27,7 +27,7 @@ func main() {
 		case result >= 1 && result <= 10:
 			fmt.Println("Результат средний")
 		case result < 1:
-			fmt.Println("Результат маленький")
+			fmt.Println("Результат маленький или ноль")
 		}
 	}
 	var answer string

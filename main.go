@@ -29,12 +29,12 @@ func main() {
 		case result < 1:
 			fmt.Println("Результат маленький или ноль")
 		}
-	}
-	var answer string
-	fmt.Print("Хотите ввести новые числа? (y/n): ")
-	fmt.Scan(&answer)
-	if answer != "y" && answer != "Y" {
-		fmt.Println("Выход из программы.")
-		break
+		var answer string
+		fmt.Print("Хотите ввести новые числа? (y/n): ")
+		fmt.Scan(&answer)
+		if answer != "y" && answer != "Y" {
+			fmt.Println("Выход из программы.")
+			break
+		}
 	}
 }
